@@ -5,7 +5,6 @@ public class Funcionarios {
     private String cargo;
     private String cpf;
 
-
     public Funcionarios(int id,String nome, String cargo, String cpf){
         this.id = id;
         this.nome = nome;
@@ -28,7 +27,6 @@ public class Funcionarios {
         return this.cpf;
     }
 
-
     //set
     public void setId(int id) {
         this.id = id;
@@ -42,6 +40,4 @@ public class Funcionarios {
     public void setCPF(String novo){
         this.cpf = novo;
     }
-
-
 }
